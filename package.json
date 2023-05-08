@@ -1,0 +1,26 @@
+{
+  "name": "cli-claro-microservice",
+  "version": "1.0.0",
+  "description": "Proyecto cli para generar estrcutura de servicios en nestjs para claro colombia",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./index.js"
+  },
+  "keywords": [
+    "Nestjs",
+    "ts",
+    "claro",
+    "microservicio",
+    "cli claro microservice"
+  ],
+  "author": "john jairo hernandez martinez",
+  "license": "MIT",
+  "dependencies": {
+    "figlet": "^1.6.0",
+    "inquirer": "^9.2.2",
+    "shelljs": "^0.8.5"
+  },
+  "bin": "./index.js"
+}
